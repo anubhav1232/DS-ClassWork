@@ -1,0 +1,13 @@
+inorder : left root right
+
+EDBFAIGKJCH
+2 1 7 3 8 10 9
+
+preorder : root left right
+
+
+postorder : left right root
+
+CEFDBHJLKIGA
+
+

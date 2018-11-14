@@ -1,0 +1,33 @@
+set ptr = a;
+procede down the left most path rooted at ptr = a;
+process a and push it's right child c on to the stack
+process b;
+process d;
+push it's right child h in stack;
+process g;
+when no left child is found, so we begin backtracing;
+pop h;
+set ptr = h;
+process h; (as backtracking begins from using stack)
+push right child k on stack;
+as no left child of processed node we backtrack(pop stack)
+pop k;
+set ptr = k;
+process k;
+backtrack;
+pop c;
+set ptr = c;
+process c;
+push right of c into stack;
+process e;
+no left of e, bactrack;
+pop f;
+process f;
+end program;
+
+
+
+proceed left with rotted at 'a' therefore pushing the nodes
+pop the elements and process(elements are popped until a element with right child is encountered)
+set ptr = right child
+push ptr on stack;
